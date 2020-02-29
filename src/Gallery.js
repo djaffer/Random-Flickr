@@ -22,9 +22,7 @@ class Gallery extends React.Component {
         Promise.all(
           result.photos.photo.map(photo => {
             return fetch(
-              `https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=ca370d51a054836007519a00ff4ce59e&photo_id=${
-                photo.id
-              }&format=json&nojsoncallback=1`
+              `https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=ca370d51a054836007519a00ff4ce59e&photo_id=${photo.id}&format=json&nojsoncallback=1`
             ).then(imageResp => imageResp.json());
           })
         )
@@ -65,7 +63,7 @@ class Gallery extends React.Component {
     );
   }
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded } = this.state;
     return (
       <div>
         <Button
