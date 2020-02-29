@@ -72,7 +72,7 @@ class Gallery extends React.Component {
           color="primary"
           onClick={this.buttonHandler.bind(this)}
         >
-          Random
+          Get images
         </Button>
         {renderIf(error && error.message)(
           <div>Error: {error && error.message}</div>

@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "Random-Flickr",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "Show latest random images from Flickr.",
   "keywords": [
     "react",
     "starter"
