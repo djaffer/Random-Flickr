@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.randomButton {
+  float: left;
+  cursor: pointer;
+  z-index: 101;
+}
+.image-gallery {
+  z-index: 100;
+}
