@@ -1,6 +1,6 @@
-#This App fetches 10 latest images/photos from Flickr and shows it in a Crousel
+# This is a react app that fetches ten random latest images/photos from Flickr and displays it in a carousel
 
-### To run the app
+### To run the app you need Nodejs
 
 1. Do npm install
 2. Do npm start
