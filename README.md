@@ -8,5 +8,9 @@
 2. Run command 'npm start' in root folder
 3. Visit in browser http://localhost:3001/
 
+Below is the demo of app:
+
+![# Files](./demo-random-flickr.gif)
+
 You may see occasionally get file not found error, it is because that image is removed from Flickr. Please press "Get images" to fetch new images.
 ![# Files](./file-not-found.png)
