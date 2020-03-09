@@ -9,3 +9,4 @@
 3. Visit in browser http://localhost:3001/
 
 You may see occasionally get file not found error, it is because that image is removed from Flickr. Please press "Get images" to fetch new images.
+![# Files](./file-not-found.png)
